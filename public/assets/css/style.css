@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #1B264F;
+}
+body{
+    background-color: #F5F5F8;
+}
+h1.title{
+    font-weight: 700!important;
+    font-size: 40px!important;
+}
+h1.title span{
+    color: #506BCA;
+}
+.media-grid .card{
+    border-radius: 10px!important;
+}
+.media-grid .card .img1{
+    border-top-left-radius: 10px;
+}
+.media-grid .card .img2{
+    border-bottom-left-radius: 10px;
+}
+.media-grid .card img.single{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.media-grid .card .card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.media-grid .card ul li{
+    font-size: 15px;
+    font-weight: 500;
+}
+.media-grid .card ul li:before {
+    content: '\2022';
+    color: #D2AD81;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.media-grid .card ul li{
+    margin-top: -7px;
+}
+.media-grid .card p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+button.default{
+    background: #1B264F;
+    color: #fff;
+    font-size: 12px!important;
+    border-color: #1B264F;
+    padding-left: 70px!important;
+    padding-right: 70px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    border-radius: 7px!important;
+}
